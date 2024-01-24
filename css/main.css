@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Valorant-Font';
+    src: local('Valorant-Font'), url('../assets/Valorant-Font.ttf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+@font-face {
+    font-family: 'SF-Pro-Text-Black';
+    src: local('SF-Pro-Text-Black'), url('../assets/SF-Pro-Text-Black.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'SF-Pro-Display-Medium';
+    src: local('SF-Pro-Display-Medium'), url('../assets/SF-Pro-Display-Medium.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'lumina';
+    src: local('lumina'), url('../assets/lumina.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'magoat';
+    src: local('magoat'), url('../assets/magoat.ttf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'mango-california-regular';
+    src: local('mango-california-regular'), url('../assets/mango-california-regular.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+body {
+    /* font-family: 'Bebas Neue', sans-serif; */
+    
+}
+
+.hidden {
+    display: none;
+}
+
+/* Containers */
+
+#container{
+    margin: 20px auto;
+    width: 428px;
+    /* border: solid 1px #333; */
+    background: rgb(26, 25, 25);
+    border-radius: 10px;
+}
+
+
+
+
+/* Main Contents */
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-column-gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+
+/* Articles*/
+
+article {
+    grid-column: 1/-1;
+    position: relative;
+}
+
+
+
+/* images */
+
+img {
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    border-radius: 10px;
+    padding: 0;
+    width: 390px;
+    height: auto;
+    
+   
+    
+}
+
+/* Headers*/
+
+/* First Article */
+
+#Article1Title1 {
+    font-size: 50px;
+    color: rgb(255, 117, 37);
+    font-family: 'Valorant-Font'; 
+}
+
+#Article1Header3 {
+    color: rgb(97, 152, 81);
+    font-family: 'Valorant-Font';
+}
+
+#Article1H4{
+    font-family: 'Valorant-Font';
+    color: rgb(97, 152, 81);
+    width: 60%;
+
+}
+
+#Article1Header5 {
+    color: rgb(207, 207, 207); 
+    font-family: 'Valorant-Font'; 
+}
+/* Second Article */
+
+#Article2Title2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'SF-Pro-Text-Black'; 
+}
+
+#Article2Header3 {
+    color: rgb(255, 255, 255);
+    font-family: 'SF-Pro-Display-Medium';
+}
+
+#Article2Header4 {
+    color: rgb(255, 255, 255);
+    font-family: 'SF-Pro-Display-Medium';
+    width: 70%;
+}
+
+#Article2Header5 {
+    color: rgb(207, 207, 207); 
+    font-family: 'SF-Pro-Text-Black'; 
+    
+}
+
+/* Article 3 */
+
+#Article3Title3 {
+    font-size: 50px;
+    color: rgb(255, 204, 0);
+    font-family: 'lumina'; 
+}
+
+#Article3Header3 {
+    color: rgb(212, 99, 12);
+    font-family: 'lumina'; 
+}
+
+#Article3Header4 {
+    color: rgb(212, 99, 12);
+    font-family: 'lumina'; 
+    width: 70%;
+}
+
+#Article3Header5 {
+    color: rgb(173, 146, 125);
+    font-family: 'lumina';  
+}
+
+
+/* Article 4 */
+
+
+#Article4Title4 {
+    font-size: 50px;
+    color: rgb(245, 230, 178);
+    font-family: 'mango-california-regular';
+     
+}
+
+#Article4Header3 {
+    color: rgb(180, 180, 180);
+    font-family: 'mango-california-regular'; 
+}
+
+#Article4Header4 {
+    color: rgb(180, 180, 180);
+    font-family: 'mango-california-regular'; 
+    width: 70%;
+    word-spacing: 10px;
+}
+
+#Article4Header5 {
+    color: rgb(245, 230, 178);
+    font-family: 'mango-california-regular';  
+}
+
+
+
+h2 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    /* margin-top: 7px; */
+}
+
+
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+h4 {
+    font-size: 10.2px;
+}
+
+
+h5 {
+    position: absolute;
+    font-size: 60px;
+    left: 305px; /* Adjust the left position as needed */
+    bottom: -90px; /* Adjust the bottom position as needed */
+ 
+}
+
+/* Styling for TypeB */
+
+
+h3, h4 {
+    position: relative;
+    float: left;
+    left: 10px;
+    padding: 0;
+    
+    
+}
+
+/* Box */
+.box {
+    font-size: 6px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: rgb(207, 207, 207); 
+    margin: 3px;
+}
+
+.box2 {
+    background-color: rgb(97, 152, 81);
+    margin: 3px;
+}
+
+.box3 {
+    background-color: rgb(255, 117, 37);
+    margin-top: 15px;
+    float: right;
+    width: 20px; /* Adjust the width of the box as needed */
+    height: 20%; /* Adjust the height of the box as needed */
+    padding: 10px;
+    margin-right: 3px;
+}
+
+.box1, .box2{
+    position: relative;
+    margin-top: 15px;
+    float: right;
+    width: 20px; /* Adjust the width of the box as needed */
+    height: 5%; /* Adjust the height of the box as needed */
+    padding: 10px;
+   
+}
+/* 2nd Article Box */
+
+
+
