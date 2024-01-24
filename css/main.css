@@ -47,10 +47,35 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'game-reality';
+    src: local('game-reality'), url('../assets/game-reality.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'malken';
+    src: local('malken'), url('../assets/malken.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'croparo';
+    src: local('croparo'), url('../assets/croparo.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
 
 
 body {
     /* font-family: 'Bebas Neue', sans-serif; */
+    
     
 }
 
@@ -65,8 +90,11 @@ body {
     width: 428px;
     /* border: solid 1px #333; */
     background: rgb(26, 25, 25);
+   
     border-radius: 10px;
+    
 }
+
 
 
 
@@ -124,6 +152,7 @@ img {
     font-family: 'Valorant-Font';
     color: rgb(97, 152, 81);
     width: 60%;
+    line-height: 1.5;
 
 }
 
@@ -148,6 +177,7 @@ img {
     color: rgb(255, 255, 255);
     font-family: 'SF-Pro-Display-Medium';
     width: 70%;
+    line-height: 1.5;
 }
 
 #Article2Header5 {
@@ -173,6 +203,8 @@ img {
     color: rgb(212, 99, 12);
     font-family: 'lumina'; 
     width: 70%;
+    font-weight: lighter;
+    line-height: 1.5;
 }
 
 #Article3Header5 {
@@ -188,19 +220,26 @@ img {
     font-size: 50px;
     color: rgb(245, 230, 178);
     font-family: 'mango-california-regular';
+    letter-spacing: 10px;
      
 }
 
 #Article4Header3 {
     color: rgb(180, 180, 180);
     font-family: 'mango-california-regular'; 
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 
 #Article4Header4 {
     color: rgb(180, 180, 180);
     font-family: 'mango-california-regular'; 
     width: 70%;
-    word-spacing: 10px;
+    font-size: 10px;
+    font-weight: lighter;
+    /* word-spacing: 10px; */
+    letter-spacing: 1.2px;
+    line-height: 2;
 }
 
 #Article4Header5 {
@@ -208,6 +247,104 @@ img {
     font-family: 'mango-california-regular';  
 }
 
+
+/* Article 5 */
+
+#Article5Title5 {
+    font-size: 50px;
+    color: rgb(255, 139, 30);
+    font-family: 'game-reality';
+     
+}
+
+#Article5Header3 {
+    color: rgb(1, 111, 142);
+    font-family: 'game-reality'; 
+    word-spacing: 5px;
+}
+
+#Article5Header4 {
+    color: rgb(1, 111, 142);
+    font-family: 'game-reality'; 
+    width: 70%;
+    word-spacing: 5px;
+    line-height: 1.5;
+    
+}
+
+#Article5Header5 {
+    color: rgb(255, 139, 30);
+    font-family: 'game-reality';  
+}
+
+/* Article 6 */
+
+#Article6Title6 {
+    font-size: 100px;
+    color: rgb(82, 152, 16);
+    font-family: 'malken';
+    letter-spacing: 10px;
+     
+}
+
+#Article6Header3 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'malken'; 
+    letter-spacing: 5px;
+}
+
+#Article6Header4 {
+    color: rgb(255, 255, 255);
+    font-family: 'malken'; 
+    width: 90%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 30px;
+    
+}
+
+#Article6Header5 {
+    color: rgb(82, 152, 16);
+    font-family: 'malken';  
+    font-size: 100px;
+   
+}
+
+/* Article 7 */
+
+#Article7Title7 {
+    font-size: 50px;
+    color: rgb(94, 27, 210);
+    font-family: 'croparo';
+    letter-spacing: 10px;
+    font-size: 70px;
+     
+}
+
+#Article7Header3 {
+    color: rgb(94, 27, 210);
+    font-family: 'croparo'; 
+    line-height: 1.5;
+    letter-spacing: 6px;
+    
+}
+
+#Article7Header4 {
+    color: rgb(52, 185, 67);
+    font-family: 'croparo'; 
+    width: 70%;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    font-size: 12px;
+    
+}
+
+#Article7Header5 {
+    color: rgb(94, 27, 210);
+    font-family: 'croparo';  
+}
 
 
 h2 {
@@ -284,7 +421,67 @@ h3, h4 {
     padding: 10px;
    
 }
-/* 2nd Article Box */
+
+.gifs { 
+    position: absolute;
+    right: -30px;
+    bottom: 100px;
+    transform: rotate(90deg);
+}
+
+.gifs img {
+    width: 150px;
+    height: auto;
+}
+
+
+.gifs2 {
+    position: absolute;
+    right: -30px;
+    bottom: 100px;
+}
+
+.gifs2 img {
+    width: 150px;
+    height: auto;
+}
+
+.gifs3 {
+    position: absolute;
+    right: -30px;
+    bottom: 100px;
+}
+
+.gifs3 img {
+    width: 150px;
+    height: auto;
+    transform: rotate(-50deg);
+}
+
+.gifs4 {
+    position: absolute;
+    right: -30px;
+    bottom: 100px;
+}
+
+.gifs4 img {
+    width: 170px;
+    height: auto;
+    
+}
+
+.gifs5 {
+    position: absolute;
+    right: -7px;
+    bottom: 100px;
+}
+
+.gifs5 img {
+    width: 100px;
+    height: 300px;
+}
+
+/* 
 
 
 
